@@ -14,6 +14,7 @@ export default function PageLinks() {
     <ol>
       <LinkItem href="/">/</LinkItem>
       <LinkItem href="/static">/static</LinkItem>
+      <LinkItem href="/static/with_fetch">/static/with_fetch</LinkItem>
       <LinkItem href="/dynamic">/dynamic</LinkItem>
     </ol>
   )
