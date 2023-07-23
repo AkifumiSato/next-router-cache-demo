@@ -6,8 +6,10 @@ import React from 'react'
 export default function Home() {
   return (
     <>
-      <CurrentUrl>/</CurrentUrl>
+      <CurrentUrl>/dynamic</CurrentUrl>
       <PageLinks />
     </>
   )
 }
+
+export const dynamic = 'force-dynamic'
