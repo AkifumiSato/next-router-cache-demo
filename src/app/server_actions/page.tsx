@@ -3,7 +3,7 @@ import PageLinks from '@/components/PageLinks'
 import { revalidateTag } from 'next/cache'
 import React from 'react'
 
-export default function Home() {
+export default function Page() {
   async function updateAction() {
     'use server'
     console.log('>>> updateAction')
