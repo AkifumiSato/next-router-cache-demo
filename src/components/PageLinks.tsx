@@ -17,7 +17,8 @@ export default function PageLinks() {
         <LinkItem href="/static">/static</LinkItem>
         <LinkItem href="/static/with_fetch">/static/with_fetch</LinkItem>
         <LinkItem href="/static/prefetch_disabled" prefetch={ false }>/static/prefetch_disabled</LinkItem>
-        <LinkItem href="/dynamic">/dynamic</LinkItem>
+        <LinkItem href="/dynamic_rendering">/dynamic_rendering</LinkItem>
+        <LinkItem href="/dynamic_route/111">/dynamic_route/111</LinkItem>
         <LinkItem href="/intercept/feed">/intercept/feed</LinkItem>
         <LinkItem href="/intercept/photo">/intercept/photo</LinkItem>
       </ol>

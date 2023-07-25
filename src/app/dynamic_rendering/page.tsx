@@ -5,7 +5,7 @@ import React from 'react'
 export default function Home() {
   return (
     <>
-      <CurrentUrl>/dynamic</CurrentUrl>
+      <CurrentUrl>/dynamic_rendering</CurrentUrl>
       <PageLinks />
     </>
   )
