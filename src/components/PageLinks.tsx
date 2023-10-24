@@ -1,5 +1,9 @@
+'use client'
+
+import { PrefetchKind } from 'next/dist/client/components/router-reducer/router-reducer-types'
 import Link from 'next/link'
-import React from 'react'
+import { useRouter } from 'next/navigation'
+import React, { useEffect } from 'react'
 
 function LinkItem({ href, prefetch, children }: { href: string, prefetch?: boolean, children: React.ReactNode }) {
   return (
@@ -10,6 +14,12 @@ function LinkItem({ href, prefetch, children }: { href: string, prefetch?: boole
 }
 
 export default function PageLinks() {
+  const router = useRouter()
+
+  useEffect(() => {
+    router.prefetch('/static/router_prefetch')
+  }, [router])
+
   return (
     <>
       <ol>
