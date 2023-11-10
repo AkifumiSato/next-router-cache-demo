@@ -33,16 +33,18 @@ export default function PageLinks() {
         <li>
           <Link href="/dynamic_route/111">/dynamic_route/111</Link>
         </li>
+      </ol>
+      <h3>features</h3>
+      <ol>
         <li>
           <Link href="/intercept/feed">/intercept/feed</Link>
         </li>
         <li>
           <Link href="/intercept/photo">/intercept/photo</Link>
         </li>
-      </ol>
-      <h3>features</h3>
-      <ol>
-        <Link href="/server_actions">/server_actions</Link>
+        <li>
+          <Link href="/server_actions">/server_actions</Link>
+        </li>
       </ol>
     </>
   )
