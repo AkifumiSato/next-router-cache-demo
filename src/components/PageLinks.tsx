@@ -14,6 +14,7 @@ export default function PageLinks() {
 
   return (
     <>
+      <h3>type of rendering</h3>
       <ol>
         <li>
           <Link href="/">/</Link>
