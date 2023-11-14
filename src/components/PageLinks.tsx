@@ -9,7 +9,7 @@ export default function PageLinks() {
   const router = useRouter()
 
   useEffect(() => {
-    router.prefetch('/static/router_prefetch')
+    router.prefetch('/static_rendering/router_prefetch')
   }, [router])
 
   return (
@@ -20,19 +20,16 @@ export default function PageLinks() {
           <Link href="/">/</Link>
         </li>
         <li>
-          <Link href="/static">/static</Link>
+          <Link href="/static_rendering">/static_rendering</Link>
         </li>
         <li>
-          <Link href="/static/with_fetch">/static/with_fetch</Link>
+          <Link href="/static_rendering/with_fetch">/static_rendering/with_fetch</Link>
         </li>
         <li>
-          <Link href="/static/prefetch_disabled" prefetch={false}>/static/prefetch_disabled</Link>
+          <Link href="/static_rendering/prefetch_disabled" prefetch={false}>/static_rendering/prefetch_disabled</Link>
         </li>
         <li>
           <Link href="/dynamic_rendering">/dynamic_rendering</Link>
-        </li>
-        <li>
-          <Link href="/dynamic_route/111">/dynamic_route/111</Link>
         </li>
       </ol>
       <h3>features</h3>

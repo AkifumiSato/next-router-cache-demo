@@ -8,7 +8,7 @@ export default async function Page() {
     .finally(() => console.log(`>>> fetch`))
   return (
     <>
-      <CurrentUrl>/static</CurrentUrl>
+      <CurrentUrl>/static_rendering</CurrentUrl>
       <PageLinks />
       <div>
         product: {JSON.stringify(product)}

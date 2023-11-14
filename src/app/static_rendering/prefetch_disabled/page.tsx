@@ -2,10 +2,10 @@ import CurrentUrl from '@/components/CurrentUrl'
 import PageLinks from '@/components/PageLinks'
 import React from 'react'
 
-export default function Page({ params }: { params: { id: string } }) {
+export default function Page() {
   return (
     <>
-      <CurrentUrl>/dynamic_route/{ params.id }</CurrentUrl>
+      <CurrentUrl>/static_rendering/prefetch_disabled</CurrentUrl>
       <PageLinks />
     </>
   )

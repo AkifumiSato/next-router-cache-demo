@@ -5,7 +5,7 @@ import React from 'react'
 export default function Page() {
   return (
     <>
-      <CurrentUrl>/static</CurrentUrl>
+      <CurrentUrl>/static_rendering</CurrentUrl>
       <PageLinks />
     </>
   )
