@@ -5,7 +5,7 @@ import React from 'react'
 export default async function Page() {
   const product = await fetch('https://dummyjson.com/products/1')
     .then(res => res.json())
-    .finally(() => console.log(`>>> fetch`))
+    .finally(() => console.log(`>>> with fetch`))
   return (
     <>
       <CurrentUrl>/static_rendering</CurrentUrl>
